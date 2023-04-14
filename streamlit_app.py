@@ -107,6 +107,12 @@ def loadcsvfile():
 
 # Define the Streamlit app
 def app():
+    
+    # Load image from file
+    img = Image.open("wvsu_logo.png")
+    new_size = (200, 200)
+    img = img.resize(new_size)
+    
     st.title("College of Agriculture and Forestry WVSUCAT Dashboard")      
     st.subheader("(c) 2023 WVSU Management Information System Office")
                  
