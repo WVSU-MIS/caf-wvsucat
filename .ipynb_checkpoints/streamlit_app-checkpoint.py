@@ -110,7 +110,7 @@ def app():
     
     # Load image from file
     img = Image.open("wvsu_logo.png")
-    new_size = (200, 200)
+    new_size = (100, 100)
     img = img.resize(new_size)
     st.image(img)
     st.title("College of Agriculture and Forestry WVSUCAT Dashboard")      
