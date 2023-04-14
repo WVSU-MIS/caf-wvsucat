@@ -110,7 +110,7 @@ def app():
     st.title("College of Agriculture and Forestry WVSUCAT Dashboard")      
     st.subheader("(c) 2023 WVSU Management Information System Office")
                  
-    st.markdown("This dashboard is managed by:<br>Dr. Dominador Lisao<br>Campus Administrator<br>caf@wvsu.edu.ph")
+    st.write("This dashboard is managed by: Dr. Dominador Lisao, Campus Administrator\ncaf@wvsu.edu.ph")
                  
     st.write("WVSUCAT is the admission examination meant to screen the applicants and short-list them so that only eligible applicants may proceed to the next steps in the admission process.")
 
